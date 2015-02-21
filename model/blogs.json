@@ -1,0 +1,14 @@
+{
+	"columns": {
+		"id": "timeuuid",
+		"title": "varchar",
+		"article": "text",
+		"publishing_date": "timestamp",
+		"tags": "set<varchar>",
+		"authors": "set<varchar>"
+	},
+	"primary_key": ["id"],
+	"indices": {
+		"publishing_date": "publishing_date"
+	}
+}
