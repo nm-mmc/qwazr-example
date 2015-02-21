@@ -5,8 +5,6 @@
 		"password": "varchar",
 		"birth_year": "int"
 	},
-	"primary_key": ["user_name"],
-	"indices": {
-		"birthyear_index": "birth_year"
-	}
+	"primary_key": "user_name",
+	"indices": ["birth_year"]
 }
