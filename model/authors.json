@@ -2,6 +2,7 @@
 	"columns": {
 		"user_name": "varchar",
 		"full_name": "varchar",
+		"password": "varchar",
 		"birth_year": "int"
 	},
 	"primary_key": "user_name",
