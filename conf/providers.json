@@ -1,8 +1,0 @@
-{
-	"com.opensearchserver.provider.CassandraProvider": {
-		"keyspaceLocator": {
-			"keyspace": "qwazr_public",
-			"csql": "select keyspace_name from repos where full_name=?"
-		}
-	}
-}
