@@ -6,7 +6,11 @@
 			"keyspaceLocator": {
 				"keyspace": "qwazr_public",
 				"csql": "select keyspace_name from repos where full_name=?"
-			}
+			},
+			"hosts": [
+				"ssd001.qwazr.net",
+				"ssd002.qwazr.net"
+			]
 		}
 	]
 }
